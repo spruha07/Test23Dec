@@ -25,4 +25,10 @@ public class Base
     	return driver;
     	
     }
+    public static WebDriver openIEBrowser()
+    {
+    	WebDriver driver=new EdgeDriver();
+    	return driver;
+    	
+    }
 }

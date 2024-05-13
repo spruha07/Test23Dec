@@ -27,6 +27,7 @@ public class TestNG_Check {
 	@Parameters ("browser")
 	
 	@BeforeTest
+	
 	public void launchBrowser(String browserName)
 	
 	{
@@ -58,6 +59,9 @@ public class TestNG_Check {
 	public void launchForgetPasswordPage() 
      {
     	 
+    	 System.out.println("Before method");
+    	 System.out.println("Before method");
+    	 System.out.println("Before method");
     	 System.out.println("Before method");
     	      driver.get("https://www.facebook.com/");
     	      
