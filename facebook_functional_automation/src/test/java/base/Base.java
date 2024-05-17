@@ -24,6 +24,9 @@ public class Base
     	WebDriver driver=new EdgeDriver();
     	return driver;
     	
+    	
+    	
+    	
     }
     public static WebDriver openIEBrowser()
     {
